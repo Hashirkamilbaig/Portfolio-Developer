@@ -109,7 +109,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Victoria",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/UVicLogo.png"),
       subHeader: "Bachelors in Computer Science",
       duration: "September 2022 - Present",
       desc: "Currently have taken courses about Software Engineering, Operating Systems, Algorithms and Data structures, Computer Architecture, ...",
@@ -118,12 +118,12 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Pakistan International School",
+      logo: require("./assets/images/pisjesLogo.png"),
+      subHeader: "Cambridge International AS & A Levels",
+      duration: "September 2018 - June 2022",
+      desc: "Ranked top 15% in my batch of A-Levels Pre-Engineering",
+      descBullets: []
     }
   ]
 };
