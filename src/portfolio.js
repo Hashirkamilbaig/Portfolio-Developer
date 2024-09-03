@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Hashir Baig",
-  title: "Hello Habibis, I'm Hashir Baig",
+  title: "Hello Habibis, I'm Hashir",
   subTitle: emoji(
     "A passionate Web Developer 🌐 with a solid foundation in HTML, CSS, Java, Python, C#, and React, eager to create engaging websites and innovative projects. Constantly exploring new technologies and excited to bring fresh ideas to life in the world of web development."
   ),
@@ -112,7 +112,7 @@ const educationInfo = {
       logo: require("./assets/images/UVicLogo.png"),
       subHeader: "Bachelors in Computer Science",
       duration: "September 2022 - Present",
-      desc: "Currently have taken courses about Software Engineering, Operating Systems, Algorithms and Data structures, Computer Architecture, ...",
+      desc: "Currently have taken courses about Software Engineering, Operating Systems, Computer Architecture, Algorithms and Data structures",
       descBullets: [
         
       ]
