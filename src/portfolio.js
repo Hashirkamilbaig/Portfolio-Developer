@@ -49,7 +49,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "My Expertise and Ongoing Explorations",
+  title: "Expertise & Exploration",
   subTitle1: "WHAT I KNOW",
   subTitle2: "WHAT I AM WORKING ON",
   skills: [
