@@ -6,6 +6,7 @@ import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import SoftwareSkillSecond from "../../components/softwareSkills/SoftwareSkillSecond";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
@@ -41,9 +42,19 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+              {skillsSection.subTitle1}
             </p>
             <SoftwareSkill />
+            <p
+              className={
+                isDark
+                  ? "dark-mode subTitle skills-text-subtitle"
+                  : "subTitle skills-text-subtitle"
+              }
+            >
+              {skillsSection.subTitle2}
+            </p>
+            <SoftwareSkillSecond />
             <div>
               {skillsSection.skills.map((skills, i) => {
                 return (

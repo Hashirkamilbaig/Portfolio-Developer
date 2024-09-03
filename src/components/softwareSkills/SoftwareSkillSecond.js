@@ -1,13 +1,14 @@
 import React from "react";
 import "./SoftwareSkill.scss";
-import {skillsSection} from "../../portfolio";
+import { skillsSection } from "../../portfolio";
 
-export default function SoftwareSkill() {
+export default function SoftwareSkillSecond() {
   return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
-          {skillsSection.softwareSkills.slice(0,5).map((skills, i) => {
+          {/* Start slicing from the 5th element (index 4) to the end of the array */}
+          {skillsSection.softwareSkills.slice(5).map((skills, i) => {
             return (
               <li
                 key={i}
