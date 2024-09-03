@@ -23,7 +23,7 @@ const greeting = {
   username: "Hashir Baig",
   title: "Hello Habibis, I'm Hashir Baig",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Web Developer 🌐 with a solid foundation in HTML, CSS, Java, Python, C#, and React, eager to create engaging websites and innovative projects. Constantly exploring new technologies and excited to bring fresh ideas to life in the world of web development."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -93,6 +93,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
     },
   ],
   display: true // Set false to hide this section, defaults to true
